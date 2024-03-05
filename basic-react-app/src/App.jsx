@@ -1,10 +1,10 @@
 import './App.css';
-import Title from './components/Title.jsx';
+import ProductTab from './components/ProductTab.jsx';
 
 function App() {
   return (
     <>
-      <Title />
+      <ProductTab />
     </>
   );
 }
