@@ -1,8 +1,5 @@
 import './App.css';
-
-function Title() {
-  return <h1>I am the Title!</h1>;
-}
+import Title from './components/Title.jsx';
 
 function Description() {
   return <p>I am the Description!</p>;
