@@ -3,9 +3,9 @@ import Title from './components/Title.jsx';
 
 function App() {
   return (
-    <div>
+    <>
       <Title />
-    </div>
+    </>
   );
 }
 
