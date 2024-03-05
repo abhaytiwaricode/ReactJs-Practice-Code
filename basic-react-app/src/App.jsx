@@ -1,7 +1,20 @@
 import './App.css';
 
+function Title() {
+  return <h1>I am the Title!</h1>;
+}
+
+function Description() {
+  return <p>I am the Description!</p>;
+}
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <Title />
+      <Description />
+    </>
+  );
 }
 
 export default App;
