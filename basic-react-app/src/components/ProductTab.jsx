@@ -1,7 +1,7 @@
 import Product from './Product.jsx';
 
 function ProductTab() {
-  // let options = ['hi-tech', 'durable', 'fast'];
+  let options = ['hi-tech', 'durable', 'fast'];
   return (
     <>
       <Product
@@ -9,7 +9,7 @@ function ProductTab() {
         price={25000}
         features={['hi-tech', 'durable', 'fast'].join(', ')}
       />
-      {/* <Product title="Laptop" price={50000} features={options.join(', ')} /> */}
+      <Product title="Laptop" price={50000} features={options} />
     </>
   );
 }
