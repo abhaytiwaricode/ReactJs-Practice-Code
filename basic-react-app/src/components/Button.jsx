@@ -1,13 +1,14 @@
-function  printHello() {
-    console.log("Hello!")
+function  printHello(event) {
+    console.log(event);
+    console.log("Hello!");
 }
 
 function  printBye() {
-    console.log("Bye!")
+    console.log("Bye!");
 }
 
 function  printClick() {
-    console.log("Double Clicked!")
+    console.log("Double Clicked!");
 }
 
 export default function Button() {

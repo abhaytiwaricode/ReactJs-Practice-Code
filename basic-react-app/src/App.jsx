@@ -1,11 +1,11 @@
 import './App.css';
-import Button from "./components/Button.jsx";
+import Form from "./components/Form.jsx";
 
 
 function App() {
     return (
         <>
-            <Button />
+            <Form />
         </>
     );
 }
