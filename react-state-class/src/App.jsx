@@ -1,10 +1,10 @@
 import './App.css'
-import LudoBoard from "./components/LudoBoard.jsx";
+import TodoList from "./components/TodoList.jsx";
 
 function App() {
     return (
         <>
-            <LudoBoard />
+            <TodoList />
         </>
     );
 }
