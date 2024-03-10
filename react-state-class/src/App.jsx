@@ -1,13 +1,12 @@
 import './App.css'
-import Counter from "./components/Counter.jsx";
+import LudoBoard from "./components/LudoBoard.jsx";
 
 function App() {
     return (
         <>
-            <h4>State in React</h4>
-            <Counter />
+            <LudoBoard />
         </>
-    )
+    );
 }
 
 export default App
