@@ -1,10 +1,12 @@
-export default function Counter() {
-    let count = 0;
+import {useState} from "react";
 
-    function inCount() {
-        count += 1;
-        console.log(count);
+export default function Counter() {
+    let [count, setCount] = useState(0);
+
+let inCount = () => {
+    setCount(count+1);
     }
+
     return (
         <div>
             <h3>Count = {count}</h3>
