@@ -5,7 +5,8 @@
   font-weight: bold;
 }
 
-.form-input input {
+.form-input input,
+textarea {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -20,5 +21,6 @@
 
 .form-input {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  justify-content: space-evenly;
 }

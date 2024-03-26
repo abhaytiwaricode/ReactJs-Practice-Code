@@ -1,10 +1,10 @@
 import './App.css';
-import Form from './components/Form';
+import CommentsForm from './components/CommentsForm';
 
 function App() {
   return (
     <>
-      <Form />
+      <CommentsForm />
     </>
   );
 }
