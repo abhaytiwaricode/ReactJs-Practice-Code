@@ -1,10 +1,10 @@
 import './App.css';
-import CommentsForm from './components/CommentsForm';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <>
-      <CommentsForm />
+      <Counter />
     </>
   );
 }

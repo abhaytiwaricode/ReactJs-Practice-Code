@@ -1,23 +1,22 @@
-import {useState} from "react";
-
-function init() {
-    console.log('init was executed');
-    return Math.random();
-}
+import { useState, useEffect } from 'react';
 
 export default function Counter() {
-    let [count, setCount] = useState(init);    //initialization
-    console.log('component was rendered');
-    let inCount = () => {
-        setCount((currCount) => {
-            return currCount + 1;
-        });
-    }
+  let [count, setCount] = useState(0);
 
-    return (
-        <div>
-            <h3>Count = {count}</h3>
-            <button onClick={inCount}>Increase Count</button>
-        </div>
-    );
+  let inCount = () => {
+    setCount((currCount) => {
+      return currCount + 1;
+    });
+  };
+
+  useEffect(function temp() {
+    console.log('this is a side-effect');
+  });
+
+  return (
+    <div>
+      <h3>Count = {count}</h3>
+      <button onClick={inCount}>Count +1</button>
+    </div>
+  );
 }
