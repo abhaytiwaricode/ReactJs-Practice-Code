@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './components/Counter';
+import Joker from './components/Joker';
 
 function App() {
   return (
     <>
-      <Counter />
+      <Joker />
     </>
   );
 }
