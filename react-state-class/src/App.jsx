@@ -1,15 +1,10 @@
 import './App.css';
-import Lottery from './components/Lottery.jsx';
-import { sum } from './helper.js';
+import Form from './components/Form';
 
 function App() {
-  let winCondition = (ticket) => {
-    return ticket.every((num) => num === ticket[0]);
-  };
-
   return (
     <>
-      <Lottery n={3} winCondition={winCondition} />
+      <Form />
     </>
   );
 }
